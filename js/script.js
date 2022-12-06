@@ -34,7 +34,7 @@ function getTodaysWeather(city) {
 }
 // Retrieves weather for the week and assigns temp, humidity, wind, and current weather icon
 function getWeeklyWeather(city) {
-  let api = "http://api.openweathermap.org/data/2.5/forecast?q=";
+  let api = "https://api.openweathermap.org/data/2.5/forecast?q=";
   let apiKey = "&units=imperial&appid=23f9da5dbc0ab14e23dcf698ead515e0";
   let result = api + city + apiKey;
 
