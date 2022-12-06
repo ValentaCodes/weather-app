@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Playfair Display SC", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #d7942e 25%, #2ec5d7);
+  display: flex;
+  max-width: auto;
+}
+
+.btn {
+  margin-top: 1rem;
+  background-image: linear-gradient(to left, #c5d72e 25%, #d7942e);
+  width: 13.2rem;
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#search {
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+aside {
+  padding-top: 3%;
+  margin-right: 3%;
+}
+
+.card {
+  margin-right: 5%;
+  margin-top: 3%;
+  max-width: 100%;
+  justify-content: center;
+}
+
+#todayForecast,
+#weeklyForecast {
+  border-right-color: #2ec5d7;
+  border-top-color: #c5d72e;
+  border-bottom-color: #d7942e;
+  border-left-color: #2ec5d7;
+  margin-bottom: 50px;
+  max-height: 100%;
+}
+
+.dayOfWeek {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 100%; */
+  height: 20rem;
+  margin: 1rem;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i {
+  padding-left: 2%;
+  line-height: 30px;
+}
+
+#futureDate {
+  margin: 1%;
+  /* border: #d7942e solid 1px; */
+  height: 80%;
+  max-width: 100%;
+}
+
+#savedCities {
+  border-top: #2ec5d7 solid 2px;
+}
+
+/* @media screen and (max-width: 1139px) {
+  body {
+    max-width: 80%;
+  }
+} */
